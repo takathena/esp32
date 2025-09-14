@@ -2,8 +2,8 @@ import network
 import time
 
 # Ganti dengan SSID dan password WiFi kamu
-SSID = "gendis"
-PASSWORD = "77777777"
+SSID = "ssid"
+PASSWORD = "your pw"
 
 # Buat objek WiFi
 wlan = network.WLAN(network.STA_IF)
