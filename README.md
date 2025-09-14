@@ -14,6 +14,10 @@ if yo new use esp32 u must download driver in [here](https://github.com/takathen
 ```bash
     main.py
 ```
+
+```bash
+    git clone https://github.com/takathena/esp32.git
+```
     
 ## Authors
 
