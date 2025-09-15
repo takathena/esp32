@@ -1,36 +1,44 @@
-# Esp23 personal Project , Code
+# Code for ESP32
 
-This code may contain information in Indonesian. kode ini mungkin berisi keterangn dengan berbahasa indonesia
-
-
-## Purpose 
-
-i make this repo for edu and for me, if am need code for esp32,
-BTW i use esp32-WROM32.
-
-![Esp32 Image](https://quartzcomponents.com/cdn/shop/products/ESP32S-Board_1200x1200.jpg?v=1654673368)
-
-<br />
-
-Use the extension than is easy to use esp32 this is 38pin extension, there are also 30pin. attention to how many pins your esp has 38 or 30
-
-![Extension Image](https://protosupplies.com/wp-content/uploads/2024/09/ESP32-S-Expansion-Board-with-ESP32.jpg)
+> Code Repository for my ESP32. 
 
 
+## Features 
 
-## Installation
+- Simple Code for connect to Internet (WIFI)
+- Monitoring Watertank
+- coming soon :)
 
-if yo new use esp32 u must download driver in [here](https://github.com/takathena/esp32driver) (instal that driver and make sure suitable for your computers bit)If it's already esp32, it will be detected on Thony or uno-IDE, etc. Copy paste my code in esp32 or download my code and put to esp. you should paste my code in main.py file 
 
-```bash
-    main.py
-```
-clone this repo
+## Setup Instructions
+
+### 1. The Hardware I use
+1. ESP32 38Pin 
+    - You Can use diferent ESP32, And Aplication my code to your ESP32
+
+![ESP32 38Pin](https://embeddednesia.com/v1/wp-content/uploads/2019/05/pinout.png)
+
+2. Extension ESP38 Pin
+    - This Extensionn It's actually important and not just for you. If you want it to be easy, just use this extension, if not, that's okay too.
+
+![ESP32 38Pin](https://ae01.alicdn.com/kf/S644faf93183a489d81748b5999a3f54eo.jpg_960x960.jpg)
+
+### 2. The Software I use
+
+1. Thony
+    - You can use another code editor to make it easier for you to work on the project.
+2. Driver (Windows)
+    - Follows Instruction on This [`Website`](https://randomnerdtutorials.com/install-esp32-esp8266-usb-drivers-cp210x-windows/) if ESP32 not detect in Thony 
+3. ChatGpt
+    - And this is the most important thing because AI to solve problems and make code better for me
+
+
+## How It Works
+
+How to use my code is simple. `Copy and Paste` my code an place to `main.py` or save this repo to your computer. 
+- `main.py` is located in your ESP32
+
+- Use this to clone my repo
 ```bash
     git clone https://github.com/takathena/esp32.git
 ```
-    
-## Authors
-
-- [@takathena](https://www.github.com/takathena)
-
