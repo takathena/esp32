@@ -5,7 +5,10 @@ BTW i use esp32-WROM32.
 
 ![Esp32 Image](https://quartzcomponents.com/cdn/shop/products/ESP32S-Board_1200x1200.jpg?v=1654673368)
 
+<br />
+
 Use the extension than is easy to use esp32 this is 38pin extension, there are also 30pin. attention to how many pins your esp has 38 or 30
+
 ![Extension Image](https://protosupplies.com/wp-content/uploads/2024/09/ESP32-S-Expansion-Board-with-ESP32.jpg)
 
 
