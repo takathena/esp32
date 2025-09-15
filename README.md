@@ -1,3 +1,8 @@
+# Esp23 personal Project , Code
+
+This code may contain information in Indonesian. kode ini mungkin berisi keterangn dengan berbahasa indonesia
+
+
 ## Purpose 
 
 i make this repo for edu and for me, if am need code for esp32,
