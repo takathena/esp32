@@ -1,6 +1,6 @@
 # Code for ESP32
 
-Code Repository for ESP32.
+This is my esp32 project repository which I collected in one repo to make it easier to find.
 
 
 ## Features 
@@ -26,7 +26,7 @@ Code Repository for ESP32.
 ### 2. The Software I use
 
 1. `Thony` : You can use another code editor to make it easier for you to work on the project.
-2. `Driver` (Windows) : Follows Instruction on This [`Website`](https://randomnerdtutorials.com/install-esp32-esp8266-usb-drivers-cp210x-windows/) if ESP32 not detect in Thony 
+2. `Driver (Windows)` : Follows Instruction on This [`Website`](https://randomnerdtutorials.com/install-esp32-esp8266-usb-drivers-cp210x-windows/) if ESP32 not detect in Thony 
 3. `ChatGpt` : This is the most important thing because AI to solve problems and make code better for me
 
 
