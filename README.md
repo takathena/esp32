@@ -4,7 +4,9 @@
 i make this repo for edu and for me, if am need code for esp32,
 BTW i use esp32-WROM32.
 
-![App Screenshot](https://quartzcomponents.com/cdn/shop/products/ESP32S-Board_1200x1200.jpg?v=1654673368)
+![Esp32 Image](https://quartzcomponents.com/cdn/shop/products/ESP32S-Board_1200x1200.jpg?v=1654673368)
+![Extension Image](https://quartzcomponents.com/cdn/shop/products/ESP32S-Board_1200x1200.jpg?v=1654673368)
+
 
 
 ## Installation
