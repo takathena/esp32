@@ -3,13 +3,6 @@
 This is my esp32 project repository which I collected in one repo to make it easier to find.
 
 
-## Features 
-
-- Simple Code for connect to Internet (WIFI)
-- Monitoring Watertank
-- coming soon :)
-
-
 ## Setup Instructions
 
 ### 1. The Hardware I use
