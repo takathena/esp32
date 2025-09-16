@@ -1,4 +1,3 @@
-
 from machine import Pin, I2C
 import ssd1306, time, math, network, socket
 
@@ -20,7 +19,7 @@ buzzer = Pin(14, Pin.OUT)      # Buzzer ke GPIO14
 TINGGI_TANDON = 30.0   # cm
 JARI_JARI = 10.0       # cm
 
-# === Fungsi baca jarak ===
+# === Fungsi baca jarak dengan timeout ===
 def read_distance():
     trig.value(0)
     time.sleep_us(2)
@@ -28,12 +27,20 @@ def read_distance():
     time.sleep_us(10)
     trig.value(0)
 
+    # Tunggu echo naik (max 30 ms)
+    timeout = time.ticks_add(time.ticks_us(), 30000)
     while echo.value() == 0:
-        pass
+        if time.ticks_diff(timeout, time.ticks_us()) <= 0:
+            return TINGGI_TANDON  # anggap kosong
+
     t1 = time.ticks_us()
 
+    # Tunggu echo turun (max 30 ms)
+    timeout = time.ticks_add(time.ticks_us(), 30000)
     while echo.value() == 1:
-        pass
+        if time.ticks_diff(timeout, time.ticks_us()) <= 0:
+            return TINGGI_TANDON
+
     t2 = time.ticks_us()
 
     durasi = time.ticks_diff(t2, t1)
@@ -72,9 +79,6 @@ def webpage(level, volume):
         <meta http-equiv="refresh" content="2">
         <title>Monitoring Air</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script>
-            setInterval(() => {{ location.reload(); }}, 2000);
-        </script>
         <style>
             body {{ font-family: Arial; text-align: center; }}
             h2 {{ color: #0077cc; }}
@@ -97,8 +101,10 @@ while True:
     # Baca sensor
     jarak = read_distance()
     tinggi_air = TINGGI_TANDON - jarak
-    if tinggi_air < 0: tinggi_air = 0
-    if tinggi_air > TINGGI_TANDON: tinggi_air = TINGGI_TANDON
+    if tinggi_air < 0:
+        tinggi_air = 0
+    if tinggi_air > TINGGI_TANDON:
+        tinggi_air = TINGGI_TANDON
 
     volume = math.pi * (JARI_JARI**2) * tinggi_air / 1000.0
 
@@ -123,7 +129,7 @@ while True:
         led_kuning.value(1)
     else:  # Penuh / dekat
         led_hijau.value(1)
-        buzzer.value(1)  # bunyi kalau penuh
+        buzzer.value((time.ticks_ms() // 500) % 2)  # bunyi beep tiap 0.5 detik
 
     # === Webserver ===
     try:
@@ -139,4 +145,3 @@ while True:
         pass
 
     time.sleep(1)
-
