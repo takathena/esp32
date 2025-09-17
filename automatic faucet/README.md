@@ -1,6 +1,6 @@
 # Automatic Faucet
 
-repo for my project [automatic faucet](https://www.kraususa.com/media/catalog/product/cache/52cf1437e0c87a314ac10af8c2d08f26/k/s/ksb-10001sfs_18.jpg)
+> repo for my project [```automatic faucet```](https://www.kraususa.com/media/catalog/product/cache/52cf1437e0c87a314ac10af8c2d08f26/k/s/ksb-10001sfs_18.jpg)
 
 ## Features
 
@@ -8,8 +8,15 @@ If the object approaches 1 - 7cm to the hc-sr04 sensor or the newer one, namely 
 
 ## Setup Instructions
 
-You need to prepare several devices including:You need to prepare several devices including:[esp32 or ardiuno](https://www.elprocus.com/wp-content/uploads/ESP32-vs-Arduino.jpg), [hcsr04](https://images.theengineeringprojects.com/image/webp/2018/10/Introduction-to-HC-SR04.jpg.webp?ssl=1) or
-[hcsr04](https://sc04.alicdn.com/kf/Hf469ac9cbcf949d5a27898beaf1b38a27.jpg), [servo45°](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYB2ZESmr5b-K3_NzMJpsPRUOrpRySyHW3n1xmXUBWe1WAWRYDA0sBLYOY_ebz7C3c0eNAch4Q_X7PmdTRlxyWLmDFOJ6ZglwKTRHvOhblVB580v30azQM9Yg9As6pnt0GYb2s2cx4aZeC7twjKiWdBDbZsMWzno15v7ORFB4bL-7l1RJtK59Ag9fr/s400/motor%20servo.jpg),
+You need to prepare several devices including:You need to prepare several devices including:
+1. [esp32 or ardiuno](https://www.elprocus.com/wp-content/uploads/ESP32-vs-Arduino.jpg)
+    - [extension esp32](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw03O16PUhL35boMDQH_wTaWpdR2UZt2N0SA&s)
+2. [hcsr04 or hysr05](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuokz8QxcofxXcceVfG6iEuMu9NzEDV0OXWA&s)
+3. [servo motor](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCCCBzfP20sfh67Epv9dAs7vWHiSQaVOI5Og&s)
+4. [jumper cables](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeA5Ed-ObcO8JU70NrDr5L_Ii-AqZzUqm8vw&s)
+5. [bradboard](https://m.media-amazon.com/images/I/51jNHLmdCCL._UF1000,1000_QL80_.jpg)
+6. [buzzer](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxUatgjjn_3oat6r-MD4YAgnPLte-g9DID3w&s)
+  
 
 
 ### BluePrint
