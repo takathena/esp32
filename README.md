@@ -9,7 +9,7 @@ This is my esp32 project repository which I collected in one repo to make it eas
 - ESP32-38Pin 
 > You Can use diferent ESP32, Type, and Pin
 
-![ESP32 38Pin](https://embeddednesia.com/v1/wp-content/uploads/2019/05/pinout.png)
+![ESP32 38Pin](https://images.prom.ua/4524657729_w1280_h640_plata-razrabotchika-esp32.jpg)
 
 - Extension ESP38 Pin
 > This Extensionn It's actually important and not just for you. If you want it to be easy, just use this extension, if not, that's okay too.
