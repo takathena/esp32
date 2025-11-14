@@ -1,0 +1,4 @@
+[submodule "dht11-dashboard-ghibli"]
+	path = dht11-dashboard-ghibli
+	url = https://github.com/takathena/dht11-schoolwork.git
+	branch = ghibli
