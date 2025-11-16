@@ -18,8 +18,9 @@ This is my esp32 project repository which I collected in one repo to make it eas
 
 ### 2. The Software I use
 
-1. `Thony` : You can use another code editor to make it easier for you to work on the project.
-2. `Driver` : Follows Instruction on This [`Website`](https://randomnerdtutorials.com/install-esp32-esp8266-usb-drivers-cp210x-windows/) or download directly from my [`Driver Repo`](https://github.com/takathena/esp32driver)
+* `Thony` : You can use another code editor to make it easier for you to work on the project.
+* if you use ESP32 type cp2102, you must download this driver (for windows 10/11)
+    * `Driver` : Follows Instruction on This [`Website`](https://randomnerdtutorials.com/install-esp32-esp8266-usb-drivers-cp210x-windows/) or download directly from my [`Driver Repo`](https://github.com/takathena/esp32driver)
 
 
 ## How It Works
