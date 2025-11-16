@@ -6,7 +6,7 @@ This is my esp32 project repository which I collected in one repo to make it eas
 ## Setup Instructions
 
 ### 1. The Hardware I use
-- ESP32-38Pin 
+- ESP32-38Pin (CP2102)
 > You Can use diferent ESP32, Type, and Pin
 
 ![ESP32 38Pin](https://images.prom.ua/4524657729_w1280_h640_plata-razrabotchika-esp32.jpg)
