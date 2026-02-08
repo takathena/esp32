@@ -1,7 +1,7 @@
 # ESP32 Project Repository
 
 ## 📋 Device Information
-**ESP32-38Pin (CP2102)** - Ini adalah perangkat yang saya gunakan secara spesifik.
+**ESP32-38Pin (CP2102)** - Ini adalah perangkat yang saya gunakan.
 
 ![ESP32 38Pin](https://images.prom.ua/4524657729_w1280_h640_plata-razrabotchika-esp32.jpg)
 
